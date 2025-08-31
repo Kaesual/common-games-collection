@@ -14,24 +14,30 @@ With those pre-requisites, I hope to build a growing collection of permissively 
 
 ## Games
 
-Luanti: https://github.com/Kaesual/minetest-wasm
+**Luanti**: https://github.com/Kaesual/minetest-wasm
 
-Sauerbraten: https://github.com/Kaesual/sour
+<img src="assets/luanti.png">
+
+[Luanti](https://www.luanti.org/) is a fully Open Source voxel game engine that allows creation of games that look and feel like Minecraft, started in 2010 and written in c++. Until today, it has an active community of maintainers, contributors and players. There's also the [Luanti ContentDB](https://content.luanti.org/) where many games and mods can be found.
+
+**Sauerbraten**: https://github.com/Kaesual/sour
+
+<img src="assets/sour.png">
+
+[Sauerbraten](http://sauerbraten.org/) is a fully Open Source first person shooter that reminds of Quake 2 and early Unreal Tournament versions, started in 2004 and written in c++. It supports many game modes (ffa, insta, ctf...) and comes with Game Server and Web Assembly Game client built in. Host it and play with others instantly.
 
 ## Get in touch
 
-I also want to bring together everyone who want to join me in that quest. There are several options to get involved:
+The *Quest* of Common Games is to gather great Open Source games and make them available as browser versions. My goal is to bring together a community of players and developers, to bring "good old LAN party vibes" into the browser. There are several options to get involved:
 
-1.) Common Ground
+**Common Ground**
 
-I'm the founder of a community platform named Common Ground, which runs on [app.cg](https://app.cg). It has many features similar to Discord or Slack, but it only runs in the Browser, and custom software (like games) can be embedded into communities as iframes, and even connected to the platform with an API.
+I'm the founder of a community platform named Common Ground, which runs on [app.cg](https://app.cg). It has many features similar to Discord or Slack, but it completely (and only) runs in the Browser. Custom software (like games) can be embedded into communities as iframes, and can be connected to the platform through an API.
 
-That's also my personal reason to build the Common Games Collection - all of the games are available as community plugins on app.cg. We're also planning to make the whole Common Ground platform available under a permissive community license this year - stay tuned! You can learn more about the project here: [Common Ground DAO on github](https://github.com/Common-Ground-DAO).
+That's my personal reason to build the Common Games Collection - all of the games are available as community plugins on app.cg. We're also planning to make the whole Common Ground platform available under a permissive community license this year - stay tuned! You can learn more about the project here: [Common Ground DAO on github](https://github.com/Common-Ground-DAO).
 
-To get in touch for gaming, sign up and join the [Video Games Community](https://app.cg/c/videogames/). For the project itself, join our [Common Ground Community](https://app.cg/c/commonground/).
+To play the game and get in touch for gaming, sign up and join the [Common Games Community](https://app.cg/c/commongames/). For the Common Ground project itself, join our [Common Ground Community](https://app.cg/c/commonground/).
 
-2.) Discord
+**Discord**
 
-I understand not everyone is willing to sign up on a new platform (and also, app.cg still has some occasional UX problems in the signup process), and that's fine. I am also running a Discord community for everyone else, so come join the [Common Games Collective on Discord](https://discord.gg/FcK7PsdXtF).
-
-You can also just join us on both Platforms.
+I understand that not everyone is willing to sign up to a new platform, and that's fine. I am also running a Discord community for everyone else, so come join the [Common Games Community on Discord](https://discord.gg/FcK7PsdXtF) in case this is your preferred option.
