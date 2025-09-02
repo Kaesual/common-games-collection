@@ -10,6 +10,8 @@ I am collecting such games and make a basic set of changes:
 
 3.) Provide a proper hosting setup. The game should be hostable behind a reverse nginx proxy (for easy https), and also on a freely choosable url / path.
 
+4.) Enhanced UI/UX and browser integration. I add a simple, react-based loader frontend and sometimes additional game-specific components for easy integration and comfortable gameplay.
+
 With those pre-requisites, I hope to build a growing collection of permissively licensed games and an ecosystem of gamers and contributors. There are decades of games made with love by artists, coders and - sometimes ancient - communities. I consider the Common Games Collection an effort to find the gold nuggets and artifacts that the internet gives us, and bring them together in one happy, easy to use collection.
 
 ## Games
@@ -20,15 +22,45 @@ With those pre-requisites, I hope to build a growing collection of permissively 
 
 [Luanti](https://www.luanti.org/) is a fully Open Source voxel game engine that allows creation of games that look and feel like Minecraft, started in 2010 and written in c++. Until today, it has an active community of maintainers, contributors and players. There's also the [Luanti ContentDB](https://content.luanti.org/) where many games and mods can be found.
 
+Updates:
+
+- Added dockerized build environment and simple build command
+- Builds a ready-to-use docker image (including all game assets)
+- Added indexedDb world save synchronization and Zip Download + Restore
+- Added custom overlay menu to configure synchronization and manage several other settings
+- Added simple join code sharing for easy p2p play right in the browser
+- Added customizable React based loader with many settings and options
+- Added more pre-packed games for pre-selection in the loader
+- Added configuration for playing in iframes (tricky header setup magic)
+
+Next tasks:
+
+- Use FileSystemDirectoryHandle (not iframe compatible though) to synchronize save games and game assets with a local folder instead of indexedDb (is probably required for running "bigger" game servers with friends, as indexedDb is more limited)
+
 **Sauerbraten**: https://github.com/Kaesual/sour
 
 <img src="assets/sour.png">
 
-[Sauerbraten](http://sauerbraten.org/) is a fully Open Source first person shooter that reminds of Quake 2 and early Unreal Tournament versions, started in 2004 and written in c++. It supports many game modes (ffa, insta, ctf...) and comes with Game Server and Web Assembly Game client built in. Host it and play with others instantly.
+[Sauerbraten](http://sauerbraten.org/) is a fully Open Source first person shooter that reminds of Quake 2 and early Unreal Tournament versions, started in 2004 and written in c++. It supports many game modes (ffa, insta, ctf...) and comes with **Game Server and Game Client built in**. Host it and play with others instantly.
+
+Updates:
+
+- Added dockerized build environment and simple build
+- Builds a ready-to-use docker image (including all game assets)
+- Fixed a bug that would prevent keyboard events from being picked up in iframes
+
+Next tasks:
+
+- Fix some desync issues which can lead to undamageable or invisible players sometimes
+- Enhance the assets build step to include more maps
+- Build custom UI components for game and server management
+- Long term: Tournaments and mma-based Matchmaking
 
 ## Get in touch
 
-The *Quest* of Common Games is to gather great Open Source games and make them available as browser versions. My goal is to bring together a community of players and developers, to bring "good old LAN party vibes" into the browser. There are several options to get involved:
+The *Quest* of Common Games is to gather great Open Source games and make them available as browser versions. My goal is to bring together a community of players and developers, and bring "good old LAN party vibes" into the browser. Open Source game communities manage to unite people with different backgrounds and experiences, and are a place of collaboration and knowledge exchange. The goal of *browserifying* such games, *simplifying the tool chain* and *improving UI/UX* aims to make those games more accessible to a broader audience, and will make it easier to get involved.
+
+There are several options to get in touch:
 
 **Common Ground**
 
