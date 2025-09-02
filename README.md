@@ -4,7 +4,7 @@ This repository is part of a broader effort to unify the build and setup process
 
 I am collecting such games and make a basic set of changes:
 
-1.) Provide a proper dockerized build system, so anyone can easily build the game. This way, the community can focus on game modifications, and there's once "centralized" place where build and setup can be discussed
+1.) Provide a proper dockerized build system, so anyone can easily build the game. This way, the community can focus on game modifications, and there's one "centralized" place where build and setup can be discussed
 
 2.) Provide a production-ready docker container for the game. This allows easy hosting for anyone.
 
@@ -16,11 +16,13 @@ With those pre-requisites, I hope to build a growing collection of permissively 
 
 ## Games
 
-**Luanti**: https://github.com/Kaesual/minetest-wasm
+**Luanti**
 
 <img src="assets/luanti.png">
 
 [Luanti](https://www.luanti.org/) is a fully Open Source voxel game engine that allows creation of games that look and feel like Minecraft, started in 2010 and written in c++. Until today, it has an active community of maintainers, contributors and players. There's also the [Luanti ContentDB](https://content.luanti.org/) where many games and mods can be found.
+
+https://github.com/Kaesual/minetest-wasm
 
 Updates:
 
@@ -37,11 +39,13 @@ Next tasks:
 
 - Use FileSystemDirectoryHandle (not iframe compatible though) to synchronize save games and game assets with a local folder instead of indexedDb (is probably required for running "bigger" game servers with friends, as indexedDb is more limited)
 
-**Sauerbraten**: https://github.com/Kaesual/sour
+**Sauerbraten**
 
 <img src="assets/sour.png">
 
 [Sauerbraten](http://sauerbraten.org/) is a fully Open Source first person shooter that reminds of Quake 2 and early Unreal Tournament versions, started in 2004 and written in c++. It supports many game modes (ffa, insta, ctf...) and comes with **Game Server and Game Client built in**. Host it and play with others instantly.
+
+https://github.com/Kaesual/sour
 
 Updates:
 
