@@ -60,6 +60,14 @@ Next tasks:
 - Build custom UI components for game and server management
 - Long term: Tournaments and mma-based Matchmaking
 
+## Vision
+
+I want to build a growing open source gaming community that is connected across projects. I intend to focus on browser gaming, and only on games that are licensed permissively and don't require any proprietary assets. Building and hosting should work simple and reliable across operating systems, and in a similar manner across projects so it's easy to get into other games. This ensures that the games are open for anyone to play and modify, and easy to discover and integrate.
+
+As a long term goal, if these efforts are successful, I can imagine to create a decentralized game studio that can start with porting more Open Source Games to the browser, and might even create own games that are fully open at a later point.
+
+I've been a gamer for more than 30 years, it was more fun in the early days to be honest. And early access titles that will never fix their bugs have become so common today that I think we really need a new model. I've learned that the most important task in doing something revolutionary is bringing together the right people first - so come join the collective!
+
 ## Get in touch
 
 The *Quest* of Common Games is to gather great Open Source games and make them available as browser versions. My goal is to bring together a community of players and developers, and bring "good old LAN party vibes" into the browser. Open Source game communities manage to unite people with different backgrounds and experiences, and are a place of collaboration and knowledge exchange. The goal of *browserifying* such games, *simplifying the tool chain* and *improving UI/UX* aims to make those games more accessible to a broader audience, and will make it easier to get involved.
@@ -77,3 +85,7 @@ To play the game and get in touch for gaming, sign up and join the [Common Games
 **Discord**
 
 I understand that not everyone is willing to sign up to a new platform, and that's fine. I am also running a Discord community for everyone else, so come join the [Common Games Community on Discord](https://discord.gg/FcK7PsdXtF) in case this is your preferred option.
+
+**Reddit**
+
+I also post updates about the game versions I make on reddit every once in a while. Still trying to find my flow here, but I'm normally posting game specific updates into the game subreddit, and also run my own [r/CommonGames](https://www.reddit.com/r/CommonGames/) subreddit where I post or crosspost. It's still new, but will probably become a good log of development efforts at some point.
