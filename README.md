@@ -62,11 +62,13 @@ Next tasks:
 
 ## Vision
 
-I want to build a growing open source gaming community that is connected across projects. I intend to focus on browser gaming, and only on games that are licensed permissively and don't require any proprietary assets. Building and hosting should work simple and reliable across operating systems, and in a similar manner across projects so it's easy to get into other games. This ensures that the games are open for anyone to play and modify, and easy to discover and integrate.
+    "The old archives are full of sunken treasures, yearning to shine once more."
+
+I want to build a growing Open Source Gaming community that is connected across projects. I intend to focus on Browser Gaming, and only on games that are licensed permissively and do not require any proprietary assets. Building and hosting should work simple and reliable across operating systems, and in a similar manner across projects so it's easy to get into other games. This ensures that the games are open for anyone to play and modify, and easy to discover and integrate.
 
 As a long term goal, if these efforts are successful, I can imagine to create a decentralized game studio that can start with porting more Open Source Games to the browser, and might even create own games that are fully open at a later point.
 
-I've been a gamer for more than 30 years, it was more fun in the early days to be honest. And early access titles that will never fix their bugs have become so common today that I think we really need a new model. I've learned that the most important task in doing something revolutionary is bringing together the right people first - so come join the collective!
+I've been a gamer for more than 30 years, it was more fun in the early days to be honest. Many games feel soulless today, which feels even more true for Browsergames. And early access titles that will never fix their bugs have become so common that I think we really need a new model. I've learned that the most important task in doing something revolutionary is bringing together the right people first - so come join the collective if you feel aligned with this!
 
 ## Get in touch
 
